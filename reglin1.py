@@ -43,5 +43,5 @@ if processar:  # é verificar se o botão "Processar" foi clicado. Caso tenha si
 # Cria um DataFrame do pandas com uma única linha e coluna.
 # novo_valor: O valor inserido pelo usuário no campo numérico.
 # columns=['FrqAnual']: Nomeia a coluna como "FrqAnual", representando o dado de entrada necessário para o modelo de previsão.
-   prev = modelo.predict(dados_novo_valor)     # Chama o método predict de um objeto de modelo de Machine Learning (provavelmente treinado anteriormente).
-   st.header(f"Previsão de Custo Inicial R$: {prev[0]:.2f}")
+    prev = modelo.predict(dados_novo_valor)     # Chama o método predict de um objeto de modelo de Machine Learning (provavelmente treinado anteriormente).
+    st.header(f"Previsão de Custo Inicial R$: {prev[0]:.2f}")
