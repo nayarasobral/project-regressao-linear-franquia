@@ -27,7 +27,7 @@ Este projeto é uma aplicação simples de **Machine Learning** desenvolvida com
 
 ```
 ├── slr12.csv              # Conjunto de dados usado no projeto.
-├── app.py                 # Código principal do aplicativo Streamlit.
+├── reglin1.py             # Código principal do aplicativo Streamlit.
 ├── README.md              # Descrição do projeto.
 ├── requirements.txt       # Dependências do projeto.
 ```
